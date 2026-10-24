@@ -17,5 +17,7 @@ class TestEvenChecker(unittest.TestCase):
     def test_return_type(self):
         self.assertIsInstance(is_even(6),bool)
 
+
+
 if __name__ == "__main__":
     unittest.main()
